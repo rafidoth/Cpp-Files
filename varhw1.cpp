@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main(){
+int main(){N
     int a,b;
     cin >> a >> b ;
     cout<< a << " + " << b<< " = " << a+b <<endl;
