@@ -8,7 +8,7 @@ int main(){
 
     while(i <=N){
         int j =1;
-        while(i<=j){
+        while(j<=i){
             cout << "*";
             j++;
         }
