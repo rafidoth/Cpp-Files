@@ -10,21 +10,22 @@ int main(){
         cin >> arr[c];
     }
 
-    int index;
+    int index = 0;
     for(int c=0; c<N;c++){
-        if(index<arr[c]){
+        if(arr[index]<arr[c]){
             index = c;
         }
     }
+
     int f_max = arr[index];
     cout << f_max << endl;
-    arr[index] = -100000;
 
 
-    //problem from here
+
+
     int sm = 0;
     for(int c=0; c<N;c++){
-        if(sm<arr[c]){
+        if(sm<arr[c] && c!=index){
             sm = arr[c];
         }
     }
